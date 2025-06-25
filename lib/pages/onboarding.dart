@@ -21,7 +21,7 @@ class _OnboardingState extends State<Onboarding> {
             SizedBox(height: 50.0),
             Text(
               "Track Your Parcel\nFrom Anywhere",
-              style: AppWidget.HeadlineTextfieldStyle(),
+              style: AppWidget.HeadlineTextfieldStyle(30.0),
               textAlign: TextAlign.center,
             ),
             SizedBox(height: 30.0),
