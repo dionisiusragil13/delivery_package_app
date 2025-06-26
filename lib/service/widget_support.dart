@@ -9,6 +9,13 @@ class AppWidget {
       fontWeight: FontWeight.bold,
     );
   }
+  static TextStyle normalTextfieldStyle(double textsize) {
+    return TextStyle(
+      color: Colors.black,
+      fontSize: textsize,
+      fontWeight: FontWeight.w500,
+    );
+  }
 
   static TextStyle SimpleTextfieldStyle() {
     return TextStyle(
@@ -17,6 +24,15 @@ class AppWidget {
       fontWeight: FontWeight.w500,
     );
   }
+
+  static TextStyle SlowSimpleTextfieldStyle() {
+    return TextStyle(
+      color: Colors.black38,
+      fontSize: 16.0,
+      fontWeight: FontWeight.w500,
+    );
+  }
+
   static TextStyle WhiteTextfieldStyle() {
     return TextStyle(
       color: Colors.white,
@@ -24,6 +40,7 @@ class AppWidget {
       fontWeight: FontWeight.bold,
     );
   }
+
   static TextStyle DifferentShadesWhiteTextfieldStyle() {
     return TextStyle(
       color: Colors.white54,
