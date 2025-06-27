@@ -44,7 +44,7 @@ class _OnboardingState extends State<Onboarding> {
                 child: Center(
                   child: Text(
                     "Track Now",
-                    style: AppWidget.WhiteTextfieldStyle(),
+                    style: AppWidget.WhiteTextfieldStyle(24.0),
                   ),
                 ),
               ),

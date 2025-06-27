@@ -20,7 +20,7 @@ class _PostPageState extends State<PostPage> {
             Center(
               child: Text(
                 "Add Package",
-                style: AppWidget.WhiteTextfieldStyle(),
+                style: AppWidget.WhiteTextfieldStyle(24.0),
               ),
             ),
             SizedBox(height: 20.0),
@@ -101,7 +101,7 @@ class _PostPageState extends State<PostPage> {
                         child: Center(
                           child: Text(
                             "submit location",
-                            style: AppWidget.WhiteTextfieldStyle(),
+                            style: AppWidget.WhiteTextfieldStyle(20.0),
                           ),
                         ),
                       ),
